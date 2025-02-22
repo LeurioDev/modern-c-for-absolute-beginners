@@ -1,0 +1,37 @@
+The C compiler is accompanied by a number of useful functions and macros called the 
+C standard library. These functions are defined in standard-library header files. To use 
+the C standard-library functions, we simply include the appropriate header into our 
+program. Here are some of the C standard-library headers
+
+
+<assert.h> Assertion macros
+<ctype.h> Utils for individual characters
+<errno.h> Macros reporting error conditions
+<float.h> Floating type limits
+<limits.h> Sizes of basic types
+<locale.h> Localization utils
+<math.h> Math functions
+<setjmp.h> Jumps
+<signal.h> Signal functions
+<stdarg.h> Variable arguments
+<stddef.h> Common macros
+<stdio.h> Input and output functions
+<stdlib.h> General utilities for memory, string and program flow
+<string.h> String manipulation functions
+<time.h> Time and date
+<wchar.h> Multibyte and wide characters utilities
+<wctype.h> Wide character types
+<iso646.h> Macros for alternative operator spellings
+Available since C99:
+<complex.h> Complex number arithmetic
+<fenv.h> Floating-point environment
+<inttypes.h> Format conversion of integer types
+<stdbool.h> Type bool
+<stdint.h> Fixed-width integer types
+<tgmath.h> Generic math and complex macros
+Available since C11:
+<threads.h> Thread library
+<stdalign.h> alignas and alignof macros
+<stdatomic.h> Atomic types
+<stdnoreturn.h> noreturn macros
+<uchar.h> UTF-16 and UTF-32 utils
