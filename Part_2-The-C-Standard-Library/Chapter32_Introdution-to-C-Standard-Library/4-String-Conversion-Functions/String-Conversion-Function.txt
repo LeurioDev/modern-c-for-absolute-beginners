@@ -1,0 +1,1 @@
+    There are functions in the C Standard library that allow us to convert a string to a number and vice versa. Here we discuss the strtol for converting a string to a number and snprintf for converting a number to a string.
