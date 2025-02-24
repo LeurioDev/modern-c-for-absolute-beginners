@@ -1,0 +1,1 @@
+    The C11 standard, formally known as ISO/IEC 9899:2011, was a C standard adopted in late 2011. The C11 standard replaced the C99 standard and was superseded by C17. C11 introduces new features to the C language and C standard library and modifies a few existing ones, Here, we discuss some of the notable features.

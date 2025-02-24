@@ -1,0 +1,2 @@
+        Bounds Checking and Threads Overview
+While the detailed analysis of the following features is out of scope for this book, we will briefly mention two additional things introduced in the C11 standard. They are bounds checking (safe) functions and thread support library.

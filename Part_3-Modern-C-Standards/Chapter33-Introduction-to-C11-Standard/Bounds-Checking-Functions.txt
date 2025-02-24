@@ -1,0 +1,3 @@
+        Bounds-Checking Functions
+    A few string and I/O functions can cause a buffer overflow. The C11 standard offers an optional extension containing the so-called bounds checking functions that rectify this problem. These functions are also referred to as safety functions and carry the _s suffix.
+    Some of them are gets_s, fopen_s, printf_s, scanf_s, strcpy_s, and wcscpy_s. The compiler might not provide these, and they are only avaliable if the __STD_LIB_EXT1__ macro is defined.
