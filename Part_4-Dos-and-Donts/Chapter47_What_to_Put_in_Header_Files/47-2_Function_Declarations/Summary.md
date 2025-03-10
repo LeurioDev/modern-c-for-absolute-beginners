@@ -1,0 +1,1 @@
+_Summary_: In our myheaderfile.h, we provided a myfunction declaration. Then we include the header file in both source files. The myfunction function itself is defined in a global/file scope inside a source2.c file. We can now call a myfunction function from any source file that includes the myheaderfile.h file. We say the function now has shared access.

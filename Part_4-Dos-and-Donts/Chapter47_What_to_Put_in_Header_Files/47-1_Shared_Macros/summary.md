@@ -1,0 +1,2 @@
+_Summary_: We created a common header file and put a macro definition code in that file. We then included the header file in both source files. The MYMACRO is now accessible from both the main (and any other) function inside source.c and myfunction (and any other) function inside source2.c.
+    Note how we also needed to create a myfunction declaration inside a source.c to be able to call it. The next section explains how we can move the function declaration to our header file.

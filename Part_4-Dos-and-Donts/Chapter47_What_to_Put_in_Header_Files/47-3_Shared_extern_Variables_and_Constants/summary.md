@@ -1,0 +1,2 @@
+_Summary_: With shared global variables and shared constants, things are a bit more involved. First, we need to declare the shared variables and constants in the _myheaderfile.h_ file and marked them as extern. Then we need to define them only once inside one of the source files. By including the shared _myheaderfile.h_ file in both source files, we can access shared globals from any source file.
+    The header file should not provide the definition, only the declaration. The source file should not contain external declaration, only definitions.
